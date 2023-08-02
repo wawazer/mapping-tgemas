@@ -4,12 +4,12 @@ import "leaflet/dist/leaflet.css";
 import { statesData } from "./data";
 import "./App.css";
 
-const center = [-6.95648159, 110.418682];
+const center = [-6.94779820312855, 110.42260542955462];
 export default function App() {
   return (
     <MapContainer
       center={center}
-      zoom={15}
+      zoom={16}
       style={{ width: "100vw", height: "100vh" }}
     >
       <TileLayer
