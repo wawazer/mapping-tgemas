@@ -70,7 +70,10 @@ export const statesData = {
     {
       type: "Feature",
       id: "04",
-      properties: { name: "z-4", density: 94.65 },
+      properties: {
+        name: "z-4",
+        popupContent: "This is where the Rockies play!",
+      },
       geometry: {
         type: "Polygon",
         coordinates: [
@@ -83,6 +86,28 @@ export const statesData = {
             [110.41969508, -6.95061428],
             [110.4193718, -6.9492665],
             [110.41941491, -6.94770477],
+          ],
+        ],
+      },
+    },
+    {
+      type: "Feature",
+      id: "04",
+      properties: {
+        name: "z-5",
+        popupContent: "This is where the Rockies play!",
+      },
+      geometry: {
+        type: "Polygon",
+        coordinates: [
+          [
+            [110.42347496, -6.94674156],
+            [110.42698924, -6.95083335],
+            [110.42715928, -6.95057459],
+            [110.42823176, -6.95062573],
+            [110.42453031, -6.94641922],
+            [110.42376721, -6.94646757],
+            [110.42347496, -6.94674156],
           ],
         ],
       },
